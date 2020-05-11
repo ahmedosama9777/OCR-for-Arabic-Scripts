@@ -31,8 +31,7 @@ with the maximum number of pixel value change (transition from 0 to 1 or from
   - All available cut points are then determined but there may exist invalid ones
 among them.
   - Valid cut points are determined to be able to segment the word to characters.
-  - Papers used:
-o An efficient, font independent word and character segmentation algorithm for
+  - Papers used: An efficient, font independent word and character segmentation algorithm for
 printed Arabic text (KING SAUDI UNIVERSITY)
 
 # Feature extraction/ selection module
