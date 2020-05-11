@@ -21,17 +21,17 @@ Then by now, we have words to be segmented to characters and continue the
 flow of the pipeline.
 
 # Character Segmentation module
-• For every word image, a baseline index and maximum transition index are
+  - For every word image, a baseline index and maximum transition index are
 calculated. Baseline is the line with the most pixel density along with the whole
 line where most letters are on a horizontal segment with a constant width.
 Maximum transition is the horizontal line with maximum number of vertical
 transitions above the baseline. This is done by searching for the horizontal line
 with the maximum number of pixel value change (transition from 0 to 1 or from
 1 to 0).
-• All available cut points are then determined but there may exist invalid ones
+  - All available cut points are then determined but there may exist invalid ones
 among them.
-• Valid cut points are determined to be able to segment the word to characters.
-• Papers used:
+  - Valid cut points are determined to be able to segment the word to characters.
+  - Papers used:
 o An efficient, font independent word and character segmentation algorithm for
 printed Arabic text (KING SAUDI UNIVERSITY)
 
