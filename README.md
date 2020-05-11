@@ -62,8 +62,8 @@ And for the training modules, SGD (stochastical gradient descent) is used as a
 training optimizer. Keras is used along with tensor flow as a backend.
 
 # Enhancements and future work (methods planned to try)
-• Improve character segmentation accuracy
-• Add more features as hole detection and determining location of dots in letters
-• Tune the hyper parameters of the neural network as number of hidden layers
+  - Improve character segmentation accuracy
+  - Add more features as hole detection and determining location of dots in letters
+  - Tune the hyper parameters of the neural network as number of hidden layers
 and number of neurons in each layer
-• Classify on handwritten Arabic OCR
+  - Classify on handwritten Arabic OCR
