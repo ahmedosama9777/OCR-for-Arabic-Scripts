@@ -1,5 +1,4 @@
-# OCR-for-Arabic-Scripts
-Optical character recognition of arabic script images and output scripts as text.
+
 
 # Project Pipeline
 1. Take input image along with its text file to train the model
