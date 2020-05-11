@@ -66,3 +66,8 @@ training optimizer. Keras is used along with tensor flow as a backend.
   - Tune the hyper parameters of the neural network as number of hidden layers
 and number of neurons in each layer
   - Classify on handwritten Arabic OCR
+  
+# Accuracy and Runtime
+   - Training accuracy: 96%
+   - Evaluation: 95.5%
+   - Avgerage runtime: 5 seconds/image
